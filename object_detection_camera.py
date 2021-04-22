@@ -45,6 +45,7 @@ if not os.path.exists(PATH_TO_LABELS):
     urllib.request.urlretrieve(LABELS_DOWNLOAD_BASE + LABEL_FILENAME, PATH_TO_LABELS)
     print('Done')
 
+#모델 로딩
 
 
 
